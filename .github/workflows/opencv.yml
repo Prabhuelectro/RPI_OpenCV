@@ -15,6 +15,9 @@ jobs:
     - name: Change file mode
       run: chmod +x build.sh
 
+    - name: Update
+      run: sudo apt-get update
+
     - name: Run the script
       run: ./build.sh
       
