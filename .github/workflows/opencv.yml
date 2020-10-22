@@ -1,4 +1,4 @@
-name: Opencv_RPI
+name: CI
 
 on:
   push:
