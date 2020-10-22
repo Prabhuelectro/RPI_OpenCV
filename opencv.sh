@@ -43,5 +43,3 @@ cd ../../../
 echo "Compressing Files"
 
 tar -cJvf opencv.tar.xz opencv-4.4.0/
-
-echo "Upload file to Github Actions Artifact"
