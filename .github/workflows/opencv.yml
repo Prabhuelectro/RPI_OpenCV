@@ -13,13 +13,13 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Change file mode
-      run: chmod +x build.sh
+      run: chmod +x opencv.sh
 
     - name: Update
       run: sudo apt-get update
 
     - name: Run the script
-      run: ./build.sh
+      run: ./opencv.sh
       
     - name: Upload artifact
       uses: actions/upload-artifact@v1
