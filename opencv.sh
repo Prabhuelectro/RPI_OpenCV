@@ -1,7 +1,5 @@
 echo "Build Script for building OpenCV-4"
 
-echo "Installing requirement's"
-
 sudo apt update -y
 
 sudo apt install build-essential gcc-arm-linux-gnueabihf cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python3-dev python3-numpy python3-py python3-pytest libomp-dev libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev 
